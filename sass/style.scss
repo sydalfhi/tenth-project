@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.disnone{
+    display: none;
+}
+
+body{
+    background-color: #121617;
+    margin: 0;
+    padding: 0;
+    .container {
+        width: 80%;
+        padding-top: 100px;
+        margin: auto;
+        .card{    
+            margin:auto;
+            background-color: #202731;
+            width: clamp(250px, 350px, 400px );
+            height: clamp(250px, 350px, 400px );
+
+            border-radius: 20px;
+            padding: 30px;
+            padding-bottom: 40px;
+            .card-header{
+
+                span{
+                    padding: 10px;
+                    background-color: #262f36;
+                    border-radius: 50%;
+                    
+                }
+                img{
+                    width: 17px;
+                    height: 16px;
+                }
+            }
+            .card-body{
+                color: white;
+                font-family: 'Arial Narrow';
+                font-weight: 100;
+                h2{
+                    margin-top: 30px;
+                    margin-bottom: 15px;
+                }
+                p{
+                    color: rgb(189, 189, 189);
+                }
+            }
+                .card-footer{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    ul{
+                        display: flex;
+                        justify-content: space-between;
+                        width: 100%;
+                        align-items: center;
+                        
+                        padding: 0;
+                        li{
+                            background-color:#262f36 ;
+                            cursor: pointer;
+                            width: 50px;
+                            height: 50px;
+                            border-radius: 50%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            font-size: 1rem;
+                            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                            color: antiquewhite;
+                            
+                        }
+                        .oren{
+                            background-color: #FC7614;
+                     }
+                    }
+                }
+                // 
+                    button{
+                        cursor: pointer;
+                        margin-top: 10px;
+                        width: 100%;
+                        height: 40px;
+                        background-color:#FC7614 ;
+                        border: none;
+                        border-radius: 30px;
+                        color:white;
+                        font-family:  'Arial Narrow', Arial, sans-serif;
+                        font-weight: bold;
+                        font-size: 1rem;
+                        letter-spacing: 5px;
+                    }
+                    button:active{
+                        background-color: #5d5d5d;
+                    }
+                // 
+
+
+
+
+
+
+
+
+
+                // kartu
+
+                .kartu{
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    flex-direction: column;
+
+                    p.hasil{
+                        margin-top: 30px;
+                        width: 80%;
+                        border-radius: 30px;
+                        height: 30px;
+                        background-color: #262f36;
+                        color: #FC7614;
+                        text-align: center;
+                        line-height: 30px;
+                        font-family: Arial, sans-serif;
+                        font-size: .93rem;
+                    }
+                    h1{
+                        color: white;
+                        margin-top: 8px;
+                        margin-bottom: 8px;
+                        font-family:  Verdana, sans-serif;
+                    }
+                    p{
+                        color:white;
+                        font-family: 'Arial Narrow';
+                        color: rgb(189, 189, 189);
+                        font-weight: 100;
+                        text-align: center;
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    } 
